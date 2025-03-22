@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: facial-coord-api
+    env: docker
+    plan: free
+    autoDeploy: true
