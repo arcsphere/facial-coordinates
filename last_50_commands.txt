@@ -1,0 +1,16 @@
+     1	  185  git push -u origin main
+     2	  186  git push -u origin main
+     3	  187  git push -u origin main
+     4	  188  git push -u origin main
+     5	  189  git push -u origin main
+     6	  190  git push -u origin main
+     7	  191  git push -u origin main
+     8	  192  git add Dockerfile\ngit commit -m "Fix: Added libGL support for OpenCV"\ngit push origin main
+     9	  193  git add app.py\ngit commit -m "Fix: Bind Flask app to 0.0.0.0 and dynamic PORT for Render"\ngit push origin main
+    10	  194  curl -X POST -F "image=@/Users/arjunshrivatsan/Downloads/Study/NEU/EAI\ 6010\ -\ Applications\ of\ AI\ -\ Sergiy/eai6010_docker_bundle/dataset/test/000015.jpg" https://facial-coordinates.onrender.com
+    11	  195  curl -X POST -F "image=@/Users/arjunshrivatsan/Downloads/Study/NEU/EAI 6010 - Applications of AI - Sergiy/eai6010-render-ready/dataset/test/000015.jpg" https://facial-coordinates.onrender.com
+    12	  196  curl -X POST -F "image=@/Users/arjunshrivatsan/Downloads/Study/NEU/EAI 6010 - Applications of AI - Sergiy/eai6010-render-ready/dataset/test/000015.jpg" https://facial-coordinates.onrender.com/face-coordinates
+    13	  197  history | tail -n 50 > last_50_commands.txt
+    14	  198  ls
+    15	  199  history | tail -n 200 > last_50_commands.txt
+    16	  200  history | tail -n 200 > last_50_commands.txt
